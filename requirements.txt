@@ -1,6 +1,0 @@
-# Streamlit Cloud: set the app "Main file path" to streamlit_app.py at the repo root
-# (same folder as the `playcaller/` package directory). streamlit_app.py adds that
-# folder to sys.path before importing playcaller so imports work if cwd/path differ.
-streamlit>=1.28.0
-matplotlib>=3.7.0
-plotly>=5.18.0
