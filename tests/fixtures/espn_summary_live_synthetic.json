@@ -1,0 +1,55 @@
+{
+  "header": {
+    "competitions": [
+      {
+        "id": "401test001",
+        "competitors": [
+          {
+            "id": "10",
+            "homeAway": "home",
+            "score": "14",
+            "timeouts": 2,
+            "team": {"id": "10", "abbreviation": "NYG"}
+          },
+          {
+            "id": "14",
+            "homeAway": "away",
+            "score": "10",
+            "timeouts": 3,
+            "team": {"id": "14", "abbreviation": "LAR"}
+          }
+        ],
+        "status": {
+          "period": 3,
+          "displayClock": "7:05",
+          "type": {"completed": false, "detail": "3rd Quarter"}
+        },
+        "situation": {
+          "down": 2,
+          "distance": 7,
+          "yardsToEndzone": 42,
+          "possession": "14",
+          "downDistanceText": "2nd & 7 at NYG 42"
+        }
+      }
+    ]
+  },
+  "drives": {
+    "current": {
+      "plays": [
+        {
+          "id": "401test001p1",
+          "type": {"text": "Rush", "id": "5"},
+          "text": "(12:01) - 6 Yd Rush",
+          "statYardage": 6
+        },
+        {
+          "id": "401test001p2",
+          "type": {"text": "Pass Incompletion", "id": "24"},
+          "text": "Incomplete pass",
+          "statYardage": 0
+        }
+      ]
+    }
+  }
+}
