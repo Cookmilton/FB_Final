@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "family_offsets": {
+    "inside_zone": 0.0,
+    "quick_game": 0.0
+  },
+  "bucket_offsets": {
+    "red_zone": {
+      "fade_iso": 0.012,
+      "inside_zone": 0.01
+    },
+    "short_yardage": {
+      "inside_zone": 0.015,
+      "power": 0.01
+    }
+  },
+  "red_zone_family_offsets": {
+    "quick_game": 0.008
+  },
+  "short_yardage_family_offsets": {
+    "inside_zone": 0.01,
+    "duo": 0.008
+  },
+  "fourth_down_family_offsets": {
+    "inside_zone": 0.005
+  }
+}
